@@ -1,0 +1,54 @@
+GeneralSettings:
+  Token: "MTE4MjMzNDc3NzA5Mzc4MzU3Mg.GKfnhC.PB0IwncUCrbENIja-BnJl187EWmuEJX8Iuk7MI"
+  LicenseKey: "AMZYI-12TQN-C9YM8-LLKBQ-CSDWM"
+  DashboardKey: "ZIOUF-Z3AJD-J8MQB-OOPOW-PZRNM"
+  CustomerRole: "" # (Role ID) Leave blank to disable
+  EmbedColor: "Aqua"
+
+DatabaseSettings:
+  Uri: "mongodb+srv://Oxidial:w9Njl3PO9zCwDycz@cluster0.oq3n6hb.mongodb.net/Bloom2"
+
+DashboardSettings:
+  ClientId: "1182334777093783572"
+  ClientSecret: "oROyEUyGajuSC20Mg_eqIeDBplbcEkQO"
+
+LicenseSettings:
+  ApiPort: 8080
+  SecretKey: "f!DuFK5%=vcG,wkm7ON6n@.p^&W_eq-H$aT8*ArU(gY:32y9" # Encrypt key (48 characters or more)
+  PublicApiKey: "Your-Public-Api-Key" # Public API Key (use this for the /api/client endpoint)
+  SecretApiKey: "Your-Private-Api-Key" # Use this for the developer api
+
+WebhookLogs:
+  Auth: "https://discord.com/api/webhooks/1143374564206850219/WUH2Zqnb2uL_0h-4J3dxfT2i1FZCA7rfuaY3Ay1YrvGf9dBC5eVS4qc-bL4aCRB0tgWi" # invalid license validation, license validated etc... | leave blank to disable
+  Commands: "https://discord.com/api/webhooks/1143374573182648431/hiKmUBatqYaT43M-ZbFhgs3jXis5hESaw7NK84jA-zOkkBC5Mq07JY3INJAn_aAinyIa" # product or license created/deleted | leave blank to disable
+  Web: "https://discord.com/api/webhooks/1143374571483959428/cyFwD7kHznxZ5bFf_BNzp1OsJMvsct9OPIaFRqZRP04A1gWbEHtX1SVSFdVO4LrYZ4N3" # All web logs | leave blank to disable
+
+CommandsSettings:
+  Product:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  License:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  Mylicenses:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  Stats:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  Clearmyips:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  Clearmyhwids:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"
+  Blacklist:
+    Enabled: true
+    Permissions:
+      - "1135741130001096834"

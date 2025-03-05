@@ -1,0 +1,48 @@
+GeneralSettings:
+  Token: MTEyMzgyMTc5ODU1NTkxODMzNg.G4gxHX.WWJHngI6jYZ7tI1m6C31gLsucVPuJwiRKIbuKc
+  LicenseKey: 4IHHX-WHLKH-AAIOW-R6JJ4-YELM0
+  DashboardKey: NW2I7-DVUB2-SUWUQ-0D55R-MPE1A
+  EmbedColor: Aqua
+DatabaseSettings:
+  Uri: mongodb://127.0.0.1/Bloom-old
+DashboardSettings:
+  ClientId: '1123821798555918336'
+  ClientSecret: pUrFIysZFAb5ZJRr1fmq6F1XKeA4aQ6F
+LicenseSettings:
+  ApiPort: 8080
+  SecretKey: Y430yMuYMhD4tqAETMCoDY5mr8oEaL9WuZgU3C5bIQdSm7YK
+  PublicApiKey: MKshiKRba65hfJnaWXmfsgawqU4HTXTY
+  SecretApiKey: lFQXBXyJFZcCYfgcev0BdYLTcBMzHmrm
+WebhookLogs:
+  Auth: ''
+  Commands: ''
+  Web: ''
+CommandsSettings:
+  Product:
+    Enabled: true
+    Permissions:
+      - '927694122268115065'
+  License:
+    Enabled: true
+    Permissions:
+      - '927694122268115065'
+  Mylicenses:
+    Enabled: true
+    Permissions:
+      - '927988656172589087'
+  Stats:
+    Enabled: true
+    Permissions:
+      - '927988656172589087'
+  Clearmyips:
+    Enabled: true
+    Permissions:
+      - '927988656172589087'
+  Clearmyhwids:
+    Enabled: true
+    Permissions:
+      - '927988656172589087'
+  Blacklist:
+    Enabled: true
+    Permissions:
+      - '927988656172589087'
